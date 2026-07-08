@@ -1,0 +1,34 @@
+# secrets
+.env
+.env.*
+*.key
+*.pem
+*.token
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# notebooks outputs / local files
+.vscode/
+.DS_Store
+
+# logs
+*.log
+
+# model / large files
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+models/
+checkpoints/
+
+# archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
